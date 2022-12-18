@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkblue;
+    color:white;
+}
+
+h2 {
+    margin: 1rem 0;
+}
+
+button {
+    margin-bottom: 2rem;
+}
+
+ul {
+    width: 50%;
+    list-style-type: none;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+ul li {
+    padding: 1rem;
+    border: 3px solid white;
+    border-radius: 10px;
+    display:flex;
+    justify-content: space-between;
+}
+
+ul li p.done {
+    text-decoration: line-through;
+    cursor: pointer;
+}
+
+ul li i:hover {
+    transition: .5s;
+    cursor: pointer;
+    background-color: red;
+    border-radius: 6px;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 1rem 2rem;
+}
+
+.todolist-wrapper {
+    padding: 0 3rem;
+}
